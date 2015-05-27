@@ -1,0 +1,30 @@
+<head>
+  <title>car speed</title>
+</head>
+
+<body>
+  <h1>Welcome to Meteor!</h1>
+
+  <h3>전세계인이 만지고 있으니 막 만저 보아요..</h3>
+  <h3>브라우저를 두어개 띄우면 혼자놀기도 좋아요..</h3>
+
+  {{> carSpeed}}
+
+</body>
+
+<template name="carSpeed">
+
+    <div id="container" style="width: 500px; height: 500px;"></div>
+
+    <input type="button" name="saveSpeed" value="당신의 속도는 몇 km/h ?"/><input type="text" name="speed" value="20"/>
+
+    <br/>
+    <br/>
+    <a href="http://meteorschool.com">미티어스쿨</a>
+
+    <br/>
+    <br/>
+    <a href="https://www.facebook.com/groups/meteorschool/">미티어스쿨 Facebook Group</a>
+
+
+</template>
